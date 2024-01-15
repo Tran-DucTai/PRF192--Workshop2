@@ -2,9 +2,9 @@
 
 int main(){
 	char ch;
-	int vowels;
-	int consonants; 
-	int others;
+	int vowels = 0;
+	int consonants = 0; 
+	int others = 0;
 	printf("Nhap ky tu:\n");
 	do{
 		ch = getchar();
